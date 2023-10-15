@@ -1,0 +1,51 @@
+.data{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+
+.left-data {
+    display: flex;
+    justify-content: space-between;
+    width: 32%;
+}
+.imgs{
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.imgs img{
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.right-contant h4{
+    margin: 0;
+}
+
+.right-contant p{
+    margin: 0;
+    color: gray;
+    font-size: 13px;
+}
+
+.right-data{
+    display: flex;
+    justify-content: space-between;
+    width: 26%;
+    min-width: 140px;
+    color: gray;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 480px) {
+    .right-contant p{
+      display: none;
+    }
+    .left-data{
+        display: block;
+    }
+  }

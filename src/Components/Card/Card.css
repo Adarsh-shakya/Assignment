@@ -1,0 +1,55 @@
+.card{
+    background-color: white;
+     width: 22%; 
+     height: 120px;
+    min-width: 220px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.CardIcon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: seashell;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CardIcon i{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.CardContain{
+    padding: 8px;
+}
+.CardContain p{
+    margin: 0;
+}
+
+ .heading{
+   font-size: 12px;
+   color: gainsboro;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.rate{
+    font-size: 13px;
+}
+.rateColor{
+    color: green;
+}
+@media screen and (max-width: 480px) {
+    .card{
+      width: 95%;
+    }
+  }
